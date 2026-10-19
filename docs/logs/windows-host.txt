@@ -1,0 +1,3 @@
+actual_plugin_audio_seconds=60 wall_seconds=0.0564557 one_core_percent=0.0940928
+gdi_objects_before=0 after=0
+PASS host_assertions=222859

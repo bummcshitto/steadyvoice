@@ -1,0 +1,6 @@
+analytic_voice_10k_underread_db 4x=0.113675 8x=0.033992
+analytic_to_0.45fs_underread_db 4x=0.561916 8x=0.172688
+gaussian_burst_to_0.40fs_vs16x_db 4x=0.435608 8x=0.107307
+known_near_nyquist_burst_underread_db 4x=0.171795 8x=0.117423
+voiceband_multitone_underread_db 4x=0.073427 8x=0.013008
+true_peak_assertions=4559

@@ -1,0 +1,2 @@
+actual_plugin_audio_seconds=60 wall_seconds=0.427275 one_core_percent=0.712126
+PASS host_assertions=222706

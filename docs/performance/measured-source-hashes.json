@@ -1,0 +1,11 @@
+{
+  "src/editor.cpp": "53fd97a434c78dc39d03f43f449b3c8108db3e727702ae8e4c925cd4665e83e3",
+  "src/editor.hpp": "dd1a2022c27c66393873fddf86b25e12b5cc45bc27a582d906da94d3bf64d874",
+  "src/plugin.cpp": "aba7b474143407a2477827902fc92d2f458506c74dd5ba24a58533b3bfb7157b",
+  "src/plugin.hpp": "d3c791782222d3c622ec739eb381c878ebb190249013aad23fc1c6b6f988bbce",
+  "src/true_peak.hpp": "c91fb38eed55c9dee81f25a8f523fc22e0dff031d85708f4e2b3cd0efdc7ea26",
+  "src/SteadyVoice.rc": "ebb732c3ccd05dbff88a443659b19db0dc6ea41944344cd1c15b3197a44d5dc3",
+  "src/abi.hpp": "55433124ac3209a111e45f2a2fe3a0767742ea09a90151251be4f56abf78ea10",
+  "src/parameters.hpp": "c3f960780614177f0937a5d625e08653d120fb074af52ddf07a9803b8d1f6e11",
+  "src/dsp.hpp": "aac58c48a907dfa7464367489dad3679d877d5c2f10dce76ed084545c00581b6"
+}

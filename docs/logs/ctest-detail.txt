@@ -1,0 +1,219 @@
+Start testing: Oct 09 01:57 UTC
+----------------------------------------------------------
+1/7 Testing: adaptive_behavior
+1/7 Test: adaptive_behavior
+Command: "/workspace/work/SteadyVoice-1.5.0/build-cmake/adaptive_tests"
+Directory: /workspace/work/SteadyVoice-1.5.0/build-cmake
+"adaptive_behavior" start time: Oct 09 01:57 UTC
+Output:
+----------------------------------------------------------
+SteadyVoice adaptive RMS and lookahead tests
+rms_anchor_input_db=-43.000000 duration_ms=199.999969
+rms_anchor_input_db=-31.000000 duration_ms=119.999985
+rms_anchor_input_db=-16.000000 duration_ms=80.000015
+rms_anchor_input_db=-6.500000 duration_ms=23.999998
+rms_anchor_input_db=0.000000 duration_ms=7.999999
+guard_lookahead_ms=0 isolated_peak_gain_step_db=12.084850 settled_1khz_peak_db=-1.000000 settled_1khz_thd_db=-149.543603
+guard_lookahead_ms=5 isolated_peak_gain_step_db=0.144290 settled_1khz_peak_db=-1.000000 settled_1khz_thd_db=-149.543603
+guard_lookahead_ms=20 isolated_peak_gain_step_db=0.036298 settled_1khz_peak_db=-1.000000 settled_1khz_thd_db=-149.543603
+alternating_peak_db=-1.000000 sustained_soft_gain_db=22.005009 first_loud_passage_rms_db=-11.267574 largest_adjacent_gain_step_db=0.538281
+very_soft_available_gain_db=24.000000
+PASS assertions=1207
+<end of output>
+Test time =   0.40 sec
+----------------------------------------------------------
+Test Passed.
+"adaptive_behavior" end time: Oct 09 01:57 UTC
+"adaptive_behavior" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: dsp_behavior
+2/7 Test: dsp_behavior
+Command: "/workspace/work/SteadyVoice-1.5.0/build-cmake/dsp_tests"
+Directory: /workspace/work/SteadyVoice-1.5.0/build-cmake
+"dsp_behavior" start time: Oct 09 01:57 UTC
+Output:
+----------------------------------------------------------
+SteadyVoice DSP tests
+steady_input_db=-38.000 output_rms_db=-26.004
+steady_input_db=-26.000 output_rms_db=-22.334
+steady_input_db=-10.000 output_rms_db=-20.796
+output_spread_db=5.208 from_input_spread_db=28
+settled_1khz_thd_db=-111.882
+settled_guard_1khz_thd_db=-158.322
+requested_boost_db=24.000 measured_boost_db=24.000
+requested_boost_db=32.000 measured_boost_db=32.000
+requested_boost_db=40.000 measured_boost_db=40.000
+zero_target_output_rms_db=0.004
+requested_cut_db=24.000 measured_cut_db=24.000
+requested_cut_db=36.000 measured_cut_db=36.000
+requested_cut_db=40.000 measured_cut_db=40.000
+zero_ms_first_tick_lift_db=40.000
+zero_ms_first_tick_cut_db=-40.000
+benchmark_audio_seconds=100 benchmark_wall_seconds=0.070 one_core_percent=0.070
+PASS assertions=158
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"dsp_behavior" end time: Oct 09 01:57 UTC
+"dsp_behavior" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: loud_transitions
+3/7 Test: loud_transitions
+Command: "/workspace/work/SteadyVoice-1.5.0/build-cmake/loudness_tests"
+Directory: /workspace/work/SteadyVoice-1.5.0/build-cmake
+"loud_transitions" start time: Oct 09 01:57 UTC
+Output:
+----------------------------------------------------------
+quiet_to_loud target=-10 strength=100 boost=40 cut=40 reduce=100 guard=off
+baseline_overrange_samples_30_to_200ms=4866 revised_overrange_samples_30_to_200ms=8
+baseline_peak_30_to_200ms_db=24.985 revised_peak_30_to_200ms_db=0.459
+baseline_level_gain_at_50ms_db=22.251 revised_level_gain_at_50ms_db=0.788
+baseline_guarded_peak_db=-3.000 revised_guarded_peak_db=-3.000
+baseline_output_rms_50_to_150ms_db=-9.483 revised_output_rms_50_to_150ms_db=-9.029
+50hz_input_rms=-18 target=-10 hpf=250 guard=off baseline_output_rms_db=4.246 revised_output_rms_db=-9.577
+PASS loudness_assertions=46
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"loud_transitions" end time: Oct 09 01:57 UTC
+"loud_transitions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: adaptive_guard_quality
+4/7 Test: adaptive_guard_quality
+Command: "/workspace/work/SteadyVoice-1.5.0/build-cmake/guard_quality_tests"
+Directory: /workspace/work/SteadyVoice-1.5.0/build-cmake
+"adaptive_guard_quality" start time: Oct 09 01:57 UTC
+Output:
+----------------------------------------------------------
+SteadyVoice adaptive guard quality tests
+frequency_hz=20 delay_ms=0.00000000 reduction_db=0.10000000 legacy_residual_pct=0.06640245 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=0.00000000 reduction_db=0.10000000 legacy_residual_pct=0.03031237 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=0.00000000 reduction_db=0.10000000 legacy_residual_pct=0.01029042 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=0.00000000 reduction_db=0.10000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=0.00000000 reduction_db=0.10000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=5.00000000 reduction_db=0.10000000 legacy_residual_pct=0.06640245 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=5.00000000 reduction_db=0.10000000 legacy_residual_pct=0.03031237 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=5.00000000 reduction_db=0.10000000 legacy_residual_pct=0.01029042 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=5.00000000 reduction_db=0.10000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=5.00000000 reduction_db=0.10000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=10.00000000 reduction_db=0.10000000 legacy_residual_pct=0.06640245 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=10.00000000 reduction_db=0.10000000 legacy_residual_pct=0.03031237 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=10.00000000 reduction_db=0.10000000 legacy_residual_pct=0.01029042 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=10.00000000 reduction_db=0.10000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=10.00000000 reduction_db=0.10000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=0.00000000 reduction_db=1.00000000 legacy_residual_pct=0.62177260 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=0.00000000 reduction_db=1.00000000 legacy_residual_pct=0.28802609 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=0.00000000 reduction_db=1.00000000 legacy_residual_pct=0.09663157 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=0.00000000 reduction_db=1.00000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=0.00000000 reduction_db=1.00000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=5.00000000 reduction_db=1.00000000 legacy_residual_pct=0.62177260 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=5.00000000 reduction_db=1.00000000 legacy_residual_pct=0.28802609 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=5.00000000 reduction_db=1.00000000 legacy_residual_pct=0.09663157 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=5.00000000 reduction_db=1.00000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=5.00000000 reduction_db=1.00000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=10.00000000 reduction_db=1.00000000 legacy_residual_pct=0.62177260 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=10.00000000 reduction_db=1.00000000 legacy_residual_pct=0.28802609 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=10.00000000 reduction_db=1.00000000 legacy_residual_pct=0.09663157 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=10.00000000 reduction_db=1.00000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=10.00000000 reduction_db=1.00000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=0.00000000 reduction_db=8.56000000 legacy_residual_pct=5.17701694 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=0.00000000 reduction_db=8.56000000 legacy_residual_pct=2.61036251 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=0.00000000 reduction_db=8.56000000 legacy_residual_pct=0.85765447 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=0.00000000 reduction_db=8.56000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=0.00000000 reduction_db=8.56000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=5.00000000 reduction_db=8.56000000 legacy_residual_pct=5.17701694 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=5.00000000 reduction_db=8.56000000 legacy_residual_pct=2.61036251 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=5.00000000 reduction_db=8.56000000 legacy_residual_pct=0.85765447 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=5.00000000 reduction_db=8.56000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=5.00000000 reduction_db=8.56000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+frequency_hz=20 delay_ms=10.00000000 reduction_db=8.56000000 legacy_residual_pct=5.17701694 adaptive_residual_pct=0.00000349
+frequency_hz=30 delay_ms=10.00000000 reduction_db=8.56000000 legacy_residual_pct=2.61036251 adaptive_residual_pct=0.00000364
+frequency_hz=40 delay_ms=10.00000000 reduction_db=8.56000000 legacy_residual_pct=0.85765447 adaptive_residual_pct=0.00000345
+frequency_hz=80 delay_ms=10.00000000 reduction_db=8.56000000 legacy_residual_pct=0.00000344 adaptive_residual_pct=0.00000344
+frequency_hz=1000 delay_ms=10.00000000 reduction_db=8.56000000 legacy_residual_pct=0.00000275 adaptive_residual_pct=0.00000275
+PASS assertions=271
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"adaptive_guard_quality" end time: Oct 09 01:57 UTC
+"adaptive_guard_quality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: peak_detector_quality
+5/7 Test: peak_detector_quality
+Command: "/workspace/work/SteadyVoice-1.5.0/build-cmake/true_peak_tests"
+Directory: /workspace/work/SteadyVoice-1.5.0/build-cmake
+"peak_detector_quality" start time: Oct 09 01:57 UTC
+Output:
+----------------------------------------------------------
+analytic_voice_10k_underread_db 4x=0.113675 8x=0.033992
+analytic_to_0.45fs_underread_db 4x=0.561916 8x=0.172688
+gaussian_burst_to_0.40fs_vs16x_db 4x=0.435608 8x=0.107307
+known_near_nyquist_burst_underread_db 4x=0.171795 8x=0.117423
+voiceband_multitone_underread_db 4x=0.073427 8x=0.013008
+true_peak_assertions=4559
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"peak_detector_quality" end time: Oct 09 01:57 UTC
+"peak_detector_quality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: oversampled_peak_guard
+6/7 Test: oversampled_peak_guard
+Command: "/workspace/work/SteadyVoice-1.5.0/build-cmake/peak_guard_tests"
+Directory: /workspace/work/SteadyVoice-1.5.0/build-cmake
+"oversampled_peak_guard" start time: Oct 09 01:57 UTC
+Output:
+----------------------------------------------------------
+SteadyVoice peak guard integration tests
+settled_sine mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.89999985 fixture=f=0.45 phase=0 width=0
+settled_sine mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.89999985 fixture=f=0.45 phase=0 width=0
+settled_sine mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.80656453 fixture=f=0.45 phase=0 width=0
+settled_sine mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.80656453 fixture=f=0.45 phase=0 width=0
+gaussian_burst mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.19940462 fixture=f=0.49 phase=0 width=32
+gaussian_burst mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.19940462 fixture=f=0.49 phase=0 width=32
+gaussian_burst mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.13859966 fixture=f=0.49 phase=0.785398 width=32
+gaussian_burst mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.13859966 fixture=f=0.49 phase=0.785398 width=32
+multitone mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.44459121 fixture=phase=0
+multitone mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.44459121 fixture=phase=0
+multitone mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.56619064 fixture=phase=1
+multitone mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.56619064 fixture=phase=1
+quiet_to_loud mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.79924994 fixture=reduce_ms=0.000000
+quiet_to_loud mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.79924994 fixture=reduce_ms=0.000000
+quiet_to_loud mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.77184097 fixture=reduce_ms=20.000000
+quiet_to_loud mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.77184097 fixture=reduce_ms=20.000000
+PASS assertions=1055 failures=0
+<end of output>
+Test time =   7.34 sec
+----------------------------------------------------------
+Test Passed.
+"oversampled_peak_guard" end time: Oct 09 01:57 UTC
+"oversampled_peak_guard" time elapsed: 00:00:07
+----------------------------------------------------------
+
+7/7 Testing: plugin_host
+7/7 Test: plugin_host
+Command: "/workspace/work/SteadyVoice-1.5.0/build-cmake/host_tests" "/workspace/work/SteadyVoice-1.5.0/build-cmake/SteadyVoice.so"
+Directory: /workspace/work/SteadyVoice-1.5.0/build-cmake
+"plugin_host" start time: Oct 09 01:57 UTC
+Output:
+----------------------------------------------------------
+actual_plugin_audio_seconds=60 wall_seconds=0.0411756 one_core_percent=0.068626
+PASS host_assertions=222706
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"plugin_host" end time: Oct 09 01:57 UTC
+"plugin_host" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 09 01:57 UTC

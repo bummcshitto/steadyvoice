@@ -1,0 +1,15 @@
+/build/
+/build-*/
+/work/
+__pycache__/
+*.pyc
+*.o
+*.obj
+*.res
+*.so
+*.dll
+*.exe
+.env
+.env.*
+!.env.example
+.DS_Store

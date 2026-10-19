@@ -1,0 +1,19 @@
+Test project /workspace/work/SteadyVoice-1.5.0/build-cmake
+    Start 1: adaptive_behavior
+1/7 Test #1: adaptive_behavior ................   Passed    0.40 sec
+    Start 2: dsp_behavior
+2/7 Test #2: dsp_behavior .....................   Passed    0.52 sec
+    Start 3: loud_transitions
+3/7 Test #3: loud_transitions .................   Passed    0.21 sec
+    Start 4: adaptive_guard_quality
+4/7 Test #4: adaptive_guard_quality ...........   Passed    0.68 sec
+    Start 5: peak_detector_quality
+5/7 Test #5: peak_detector_quality ............   Passed    0.57 sec
+    Start 6: oversampled_peak_guard
+6/7 Test #6: oversampled_peak_guard ...........   Passed    7.34 sec
+    Start 7: plugin_host
+7/7 Test #7: plugin_host ......................   Passed    0.31 sec
+
+100% tests passed out of 7
+
+Total Test time (real) =  10.03 sec

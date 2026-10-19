@@ -1,0 +1,9 @@
+version,rate,block_ms,block_frames,fixture,profile,peak_mode,lookahead_ms,latency_samples,ns_per_frame_median,ns_per_frame_min,ns_per_frame_max,one_cpu_realtime_percent,mean_cpu_us_per_block,measured_frames_per_repeat,output_hash,probe_max_output_peak_db,probe_max_guard_reduction_db,probe_guard_active_blocks,probe_blocks,invalid_samples,routing,probe_p99_cpu_us_per_block,probe_max_cpu_us_per_block,probe_max_wall_us_per_block
+1.5,48000,5,240,typical,legacy_off,sample,5,240,25.9280,21.5768,26.4231,0.1245,6.2227,1245120,f7cf7ff22abdc048,-1.4398,0.3886,11,400,0,left_plus_silence,10.0450,55.3320,78.9670
+1.5,48000,5,240,typical,legacy_off,sample,10,480,28.1190,26.6632,41.2827,0.1350,6.7486,1276560,b41af654539c41fe,-1.4538,0.4299,12,400,0,left_plus_silence,99.6070,141.9000,142.3810
+1.5,48000,5,240,noisy_bass_heavy,legacy_off,sample,5,240,32.9237,31.4663,34.0563,0.1580,7.9017,802560,51061d42d8298ebe,-1.0078,23.2179,400,400,0,left_plus_silence,78.2560,148.0090,148.4200
+1.5,48000,5,240,noisy_bass_heavy,legacy_off,sample,10,480,36.7775,34.2551,37.6471,0.1765,8.8266,902880,6689a2ed94839d3d,-1.0078,23.2179,400,400,0,left_plus_silence,39.5990,68.8620,69.1130
+1.5,192000,5,960,typical,legacy_off,sample,5,960,21.8145,21.7006,24.6108,0.4188,20.9419,904320,fcf92459ef11bbff,-1.3047,0.3878,11,400,0,left_plus_silence,128.4300,209.1410,209.5210
+1.5,192000,5,960,typical,legacy_off,sample,10,1920,24.3076,22.8100,28.8256,0.4667,23.3353,1017600,8f7ae5113ac8a17a,-1.3047,0.4293,12,400,0,left_plus_silence,88.9320,737.7440,738.4350
+1.5,192000,5,960,noisy_bass_heavy,legacy_off,sample,5,960,35.3501,34.9900,38.7640,0.6787,33.9361,653760,8a53f9d6b9622826,-1.0083,23.7341,400,400,0,left_plus_silence,149.0310,384.1900,384.8010
+1.5,192000,5,960,noisy_bass_heavy,legacy_off,sample,10,1920,34.8185,33.6581,37.0778,0.6685,33.4258,504000,540f3076624264d1,-1.0083,23.7341,400,400,0,left_plus_silence,132.8470,1274.2200,1275.1620

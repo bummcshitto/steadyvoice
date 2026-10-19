@@ -1,0 +1,5 @@
+version,rate,block_ms,block_frames,fixture,profile,peak_mode,lookahead_ms,latency_samples,ns_per_frame_median,ns_per_frame_min,ns_per_frame_max,one_cpu_realtime_percent,mean_cpu_us_per_block,measured_frames_per_repeat,output_hash,probe_max_output_peak_db,probe_max_guard_reduction_db,probe_guard_active_blocks,probe_blocks,invalid_samples,routing,probe_p99_cpu_us_per_block,probe_max_cpu_us_per_block,probe_max_wall_us_per_block
+1.5,48000,5,240,typical,quality_voice,8x,5,303,392.2026,385.6697,467.9519,1.8826,94.1286,66960,ba821c73c116979e,-2.4269,0.4834,11,400,0,active_stereo,349.1480,2349.6350,2350.0650
+1.5,48000,5,240,noisy_bass_heavy,quality_voice,8x,5,303,464.7845,396.0904,574.2759,2.2310,111.5483,63360,da4c5bc9d1700086,-1.8095,24.4887,400,400,0,active_stereo,174.8500,353.6840,354.9260
+1.5,192000,5,960,typical,quality_voice,8x,5,1023,363.5447,363.3083,366.9460,6.9801,349.0029,65280,33c18c2841d7ce4e,-2.4519,0.4629,11,400,0,active_stereo,631.8070,941.4460,941.9570
+1.5,192000,5,960,noisy_bass_heavy,quality_voice,8x,5,1023,380.4967,377.7500,382.5491,7.3055,365.2769,69120,5883300cce949f73,-1.8058,24.7406,400,400,0,active_stereo,638.0360,8527.3570,8527.7280

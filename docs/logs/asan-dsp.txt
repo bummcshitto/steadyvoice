@@ -1,0 +1,18 @@
+SteadyVoice DSP tests
+steady_input_db=-38.000 output_rms_db=-26.004
+steady_input_db=-26.000 output_rms_db=-22.334
+steady_input_db=-10.000 output_rms_db=-20.796
+output_spread_db=5.208 from_input_spread_db=28
+settled_1khz_thd_db=-111.882
+settled_guard_1khz_thd_db=-158.322
+requested_boost_db=24.000 measured_boost_db=24.000
+requested_boost_db=32.000 measured_boost_db=32.000
+requested_boost_db=40.000 measured_boost_db=40.000
+zero_target_output_rms_db=0.004
+requested_cut_db=24.000 measured_cut_db=24.000
+requested_cut_db=36.000 measured_cut_db=36.000
+requested_cut_db=40.000 measured_cut_db=40.000
+zero_ms_first_tick_lift_db=40.000
+zero_ms_first_tick_cut_db=-40.000
+benchmark_audio_seconds=100 benchmark_wall_seconds=0.677 one_core_percent=0.677
+PASS assertions=158

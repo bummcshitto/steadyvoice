@@ -1,0 +1,18 @@
+SteadyVoice peak guard integration tests
+settled_sine mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.89999985 fixture=f=0.45 phase=0 width=0
+settled_sine mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.89999985 fixture=f=0.45 phase=0 width=0
+settled_sine mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.80656453 fixture=f=0.45 phase=0 width=0
+settled_sine mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.80656453 fixture=f=0.45 phase=0 width=0
+gaussian_burst mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.19940462 fixture=f=0.49 phase=0 width=32
+gaussian_burst mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.19940462 fixture=f=0.49 phase=0 width=32
+gaussian_burst mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.13859966 fixture=f=0.49 phase=0.785398 width=32
+gaussian_burst mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.13859966 fixture=f=0.49 phase=0.785398 width=32
+multitone mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.44459121 fixture=phase=0
+multitone mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.44459121 fixture=phase=0
+multitone mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.56619064 fixture=phase=1
+multitone mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.56619064 fixture=phase=1
+quiet_to_loud mode=1 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.79924994 fixture=reduce_ms=0.000000
+quiet_to_loud mode=1 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.79924994 fixture=reduce_ms=0.000000
+quiet_to_loud mode=2 lookahead_ms=0.00000000 maximum_reference_excess_db=-0.77184097 fixture=reduce_ms=20.000000
+quiet_to_loud mode=2 lookahead_ms=5.00000000 maximum_reference_excess_db=-0.77184097 fixture=reduce_ms=20.000000
+PASS assertions=1055 failures=0

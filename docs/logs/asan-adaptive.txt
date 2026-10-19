@@ -1,0 +1,12 @@
+SteadyVoice adaptive RMS and lookahead tests
+rms_anchor_input_db=-43.000000 duration_ms=199.999969
+rms_anchor_input_db=-31.000000 duration_ms=119.999985
+rms_anchor_input_db=-16.000000 duration_ms=80.000015
+rms_anchor_input_db=-6.500000 duration_ms=23.999998
+rms_anchor_input_db=0.000000 duration_ms=7.999999
+guard_lookahead_ms=0 isolated_peak_gain_step_db=12.084850 settled_1khz_peak_db=-1.000000 settled_1khz_thd_db=-149.543603
+guard_lookahead_ms=5 isolated_peak_gain_step_db=0.144290 settled_1khz_peak_db=-1.000000 settled_1khz_thd_db=-149.543603
+guard_lookahead_ms=20 isolated_peak_gain_step_db=0.036298 settled_1khz_peak_db=-1.000000 settled_1khz_thd_db=-149.543603
+alternating_peak_db=-1.000000 sustained_soft_gain_db=22.005009 first_loud_passage_rms_db=-11.267574 largest_adjacent_gain_step_db=0.538281
+very_soft_available_gain_db=24.000000
+PASS assertions=1207

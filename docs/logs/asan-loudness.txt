@@ -1,0 +1,8 @@
+quiet_to_loud target=-10 strength=100 boost=40 cut=40 reduce=100 guard=off
+baseline_overrange_samples_30_to_200ms=4866 revised_overrange_samples_30_to_200ms=8
+baseline_peak_30_to_200ms_db=24.985 revised_peak_30_to_200ms_db=0.459
+baseline_level_gain_at_50ms_db=22.251 revised_level_gain_at_50ms_db=0.788
+baseline_guarded_peak_db=-3.000 revised_guarded_peak_db=-3.000
+baseline_output_rms_50_to_150ms_db=-9.483 revised_output_rms_50_to_150ms_db=-9.029
+50hz_input_rms=-18 target=-10 hpf=250 guard=off baseline_output_rms_db=4.246 revised_output_rms_db=-9.577
+PASS loudness_assertions=46
